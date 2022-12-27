@@ -401,7 +401,11 @@ void UALSMantleComponent::OnOwnerJumpInput()
 		{
 			if (OwnerCharacter->HasMovementInput())
 			{
-				MantleCheck(GroundedTraceSettings, EDrawDebugTrace::Type::ForDuration);
+				bool test = MantleCheck(GroundedTraceSettings, EDrawDebugTrace::Type::ForDuration);
+				if (test)
+				{
+
+				}
 			}
 		}
 		else if (OwnerCharacter->GetMovementState() == EALSMovementState::InAir)

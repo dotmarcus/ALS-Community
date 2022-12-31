@@ -24,8 +24,3 @@ void AAISpawner::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
-void AAISpawner::SpawnNPCs(int NumCapsules, float MinX, float MaxX, float MinY, float MaxZ)
-{
-
-}

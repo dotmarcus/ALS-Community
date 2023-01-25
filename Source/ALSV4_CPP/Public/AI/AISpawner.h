@@ -27,8 +27,5 @@ public:
 	UPROPERTY(EditAnywhere)
 		UStaticMesh* CapsuleMesh;
 
-	// Function to spawn a cluster of capsules
-	UFUNCTION(BlueprintCallable)
-		void SpawnNPCs(int NumCapsules, float MinX, float MaxX, float MinY, float MaxY, float MinZ, float MaxZ);
 
 };
